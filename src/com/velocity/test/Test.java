@@ -9,8 +9,7 @@ public class Test {
 		ll.add(15);
 		ll.add(20);
 		
-		System.out.println(ll);
-		
+		ll.stream().forEach(x->System.out.println(x));
 	}
 
 }
